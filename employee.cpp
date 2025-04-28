@@ -7,6 +7,9 @@ public:
     virtual void showDeets() {
         cout << "Employee details" << endl;
     }
+    virtual ~Employee() {
+        //--
+    }
 };
 
 class Manager : public Employee {
